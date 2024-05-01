@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 
 @font-face {
     font-family: banana;
-    src: url(/fonts/banana-grotesk-regular.ttf);
+    src: url("/fonts/banana-grotesk-regular.ttf");
 }
 
 @font-face {
