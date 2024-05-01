@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 
 @font-face {
     font-family: Eina03-SemiBold;
-    src: url(./fonts/Eina03-SemiBold.ttf);
+    src: url("./fonts/Eina03-SemiBold.ttf");
 }
 
 @font-face {
