@@ -17,27 +17,27 @@ body::-webkit-scrollbar {
 
 @font-face {
     font-family: banana;
-    src: url("/fonts/banana-grotesk-regular.ttf");
+    src: url(./fonts/banana-grotesk-regular.ttf);
 }
 
 @font-face {
     font-family: banana-semi;
-    src: url(/fonts/banana-grotesk-semibold.ttf);
+    src: url(./fonts/banana-grotesk-semibold.ttf);
 }
 
 @font-face {
     font-family: banana-extrabold;
-    src: url(/fonts/banana-grotesk-extrabold.ttf);
+    src: url(./fonts/banana-grotesk-extrabold.ttf);
 }
 
 @font-face {
     font-family: cako;
-    src: url(/fonts/cako-regular.ttf);
+    src: url(./fonts/cako-regular.ttf);
 }
 
 @font-face {
     font-family: cako-regular;
-    src: url(/fonts/cako-regular-italic.ttf);
+    src: url(./fonts/cako-regular-italic.ttf);
 }
 
 @font-face {
