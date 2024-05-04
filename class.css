@@ -1,0 +1,11 @@
+.classFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classFlexE{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
