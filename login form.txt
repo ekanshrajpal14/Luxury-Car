@@ -238,3 +238,38 @@ a{color:inherit;text-decoration:none}
 
 
 
+
+
+
+
+
+
+
+
+
+
+  <section id="section1">
+            <div class="page1">
+                <div class="part1">
+                    <div class="left">
+                        <h1>Enquiry Now</h1>
+                        <div class="table">
+                            <form action="">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input type="tel" maxlenght="10" required pattern="[1-9]{1}[0-9]{9}"
+                                    placeholder="Mobile Number" id="" maxlength="10">
+                                <select name="" id="">
+                                    <option id="opt" selected value="Choose a car">Choose Car Type</option>
+                                    <option value="Luxury">Luxury</option>
+                                    <option value="sedan">Sedan</option>
+                                    <option value="Self Drive">Self Drive</option>
+                                </select>
+                                <button class="btn_form" type="submit">Send a Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+            </div>
+        </section>

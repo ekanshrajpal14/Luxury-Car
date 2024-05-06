@@ -2,8 +2,8 @@
 
 
 var car = gsap.to(".car_own_cont", {
-    x: "-148.5vw",
-    duration: "20",
+    x: "-115.5vw",
+    duration: "15",
     repeat: -1,
     ease: "linear"
 
