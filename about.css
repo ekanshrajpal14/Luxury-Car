@@ -9,10 +9,11 @@ html,body{
 }
 .about_page{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     /* background-color: #211f1f; */
     background-color: #081b29;
-    background-image: url(./images/bbg2.jpg);
+    background-color: #fff;
+    /* background-image: url(./images/bbg2.jpg); */
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -110,4 +111,45 @@ html,body{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+/* section{
+    width: 100%;
+    height: 200vh;
+} */
+.animation_no1{
+    width: 100%;
+    height: 20vh;
+    background-color: #F5B754;
+}
+.ani_cover_div{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.ani_text{
+    display: flex;
+    width: 200vw;
+    /* left: -70%; */
+    flex-wrap: nowrap;
+align-items: center;
+    gap: 50px;
+    position: absolute;
+}
+#col{
+    color: transparent;
+    /* color: white; */
+        /* font-size: 40px; */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+}
+.ani_text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+}
+.ani_cover_div img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
 }

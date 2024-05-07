@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="about.css">
@@ -20,14 +21,22 @@
                     <div>
                         <h6>LOHITH</h6>
                     </div>
-                    <div><h1>We Are More Than <br><span> A Car Rental Company</span></h1>  </div>
+                    <div>
+                        <h1>We Are More Than <br><span> A Car Rental Company</span></h1>
+                    </div>
                     <div id="para_about">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum illum inventore aspernatur
                             dolores eligendi doloribus earum optio? Enim, qui quia nobis temporibus non asperiores unde
                             sapiente soluta fugit, ratione delectus?</p>
                     </div>
-                    <div id="sports"><div class="circle"><i class="ri-check-line"></i></div><p>Sports n luxury car</p></div>
-                    <div id="sports"><div class="circle"><i class="ri-check-line"></i></div><p>Sports n luxury car</p></div>
+                    <div id="sports">
+                        <div class="circle"><i class="ri-check-line"></i></div>
+                        <p>Sports n luxury car</p>
+                    </div>
+                    <div id="sports">
+                        <div class="circle"><i class="ri-check-line"></i></div>
+                        <p>Sports n luxury car</p>
+                    </div>
                     <div id="read_more"><a href="#">Read More<i class="ri-arrow-right-up-line"></i></a></div>
                 </div>
                 <div class="right_about">
@@ -39,6 +48,49 @@
         </div>
     </section>
 
+    <section id="animation_main">
+        <div class="animation_no1">
+            <div class="ani_cover_div">
+                <div class="ani_text">
+                    <h1 id="col">LOHITH LUXURY CAR</h1>
+                    <h1 >LOHITH LUXURY CAR</h1>
+                    <h1 id="col">LOHITH LUXURY CAR</h1>
+                    <!-- <h1>LOHITH LUXURY CAR</h1> -->
+
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+
+
+        gsap.from(".ani_text", {
+            scrollTrigger: {
+                trigger: ".ani_text",
+                scroller: "body",
+                start: "top 100%",
+                end: "top -60%",
+                scrub: 1.5,
+                // toggleActions: "restart none none none",
+            },
+            x: "-100vw",
+            // opacity: 0,
+            duration: 1,
+            ease: "ease"
+        });
+
+
+    </script>
 
 </body>
 
