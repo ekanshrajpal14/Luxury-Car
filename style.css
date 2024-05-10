@@ -671,7 +671,7 @@ input::-webkit-inner-spin-button {
 
 .car_own {
     width: 84vw;
-    background-color: #b4e9ff71;
+    background-color: #eaf1f3;
     /* box-shadow: 0px 0px 1px 1px #081b29; */
     height: 30vh;
     overflow: hidden;
@@ -888,6 +888,9 @@ input::-webkit-inner-spin-button {
 #section4 {
     width: 100%;
     height: auto;
+}
+.car_head1 p{
+    font-size: 1.2vw;
 }
 
 .page4 {
