@@ -9,6 +9,9 @@ body {
 
     height: 100%;
     width: 100%;
+    perspective: 1px;
+        transform-style: preserve-3d;
+        overflow-x: hidden;
 }
 
 /* body::-webkit-scrollbar {
@@ -291,17 +294,17 @@ body {
     /* color: #081b29; */
 }
 
-.swiper {
+.header_swiper {
     width: 100%;
     height: 89vh;
 }
 
-.swiper-slide {
+.header_swiper_slide {
     background-position: center;
     background-size: cover;
 }
 
-.swiper-slide img {
+.header_swiper_slide img {
     display: block;
     width: 100%;
     height: 100%;
@@ -309,8 +312,8 @@ body {
     /* FFC251 */
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.header_swiper_next_btn,
+.header_swiper_prev_btn {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -318,8 +321,8 @@ body {
     background-color: #ffffff1b;
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
+.header_swiper_next_btn::after,
+.header_swiper_prev_btn::after {
     color: #fff;
     font-size: 1vw;
 
@@ -345,13 +348,13 @@ body {
     background-image: url(./images/bg_1st.jpg);
 }
 
-.swiper-button-next:hover #btn_animate {
+.header_swiper_next_btn:hover #btn_animate {
     width: 100%;
     border-radius: 100%;
     height: 100%;
 }
 
-.swiper-button-prev:hover #btn_animate1 {
+.header_swiper_prev_btn:hover #btn_animate1 {
     width: 100%;
     border-radius: 100%;
     height: 100%;
@@ -667,7 +670,9 @@ input::-webkit-inner-spin-button {
 }
 
 .car_own {
-    width: 100%;
+    width: 84vw;
+    background-color: #b4e9ff71;
+    /* box-shadow: 0px 0px 1px 1px #081b29; */
     height: 30vh;
     overflow: hidden;
     /* margin-bottom: 5vw; */
@@ -687,6 +692,7 @@ input::-webkit-inner-spin-button {
     height: 10vw;
     /* border: 1px solid grey; */
     display: flex;
+    background-color: #fff;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 9px 0px rgb(187, 187, 187);
@@ -902,7 +908,8 @@ input::-webkit-inner-spin-button {
 }
 
 .car_head2 h1 {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
+    color: #253993;
 }
 
 .car_head3 {
@@ -920,11 +927,14 @@ input::-webkit-inner-spin-button {
 }
 
 .opt1 button {
-    padding: .5vw 1.3vw;
+    padding: .6vw 1.5vw;
     border-radius: 6px;
     border: none;
+    font-size: 1vw;
     color: rgb(74, 74, 74);
-    background-color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #FF9900;
     font-weight: 600;
 }
 
@@ -940,8 +950,9 @@ input::-webkit-inner-spin-button {
     flex-wrap: wrap;
     /* white-space: nowrap; */
     gap: 40px;
-    /* justify-content: center; */
-    padding: 2vw 4vw;
+    justify-content: center;
+    padding: 1vw 4vw;
+    padding-bottom: 4vw;
 }
 
 .car_card {
@@ -1070,7 +1081,10 @@ input::-webkit-inner-spin-button {
 }
 
 .service_top_part h1 {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
+    /* font-weight: 700; */
+    font-family: Eina03-bold;
+    color: #253993;
 }
 
 .service_top_part p {
@@ -1621,7 +1635,7 @@ body {
     border-radius: 50%;
     color: #000000;
     font-size: 1.9vw;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
 
 }
 
@@ -1630,13 +1644,18 @@ body {
     font-size: 2vw;
 }
 
-#ftrtopbox>div>h6 {
+#ftrtopbox>a>div>h6 {
     font-size: 1vw;
     font-weight: 500;
     margin-bottom: 8px;
 }
 
-#ftrtopbox>div>h1 {
+#ftrtopbox>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#ftrtopbox>a>div>h1 {
     font-size: 0.9vw;
     letter-spacing: 1px;
     font-weight: 300;
@@ -1795,7 +1814,7 @@ body {
     /* justify-content: space-between; */
 }
 
-#linkbox:nth-child(2) {}
+/* #linkbox:nth-child(2) {} */
 
 #line {
     width: 1px;
@@ -2011,18 +2030,12 @@ body {
 }
 
 .box {
-    /* flex-shrink: 0; */
+    margin-left: auto;
+    margin-right: auto;
     width: 20vw;
-    height: 70%;
-    /* box-shadow: 5px 5px 20px gainsboro; */
+    height: 45vh;
     position: relative;
-    /* border-radius: 10px; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* background-color: #eff4fb; */
     z-index: 99;
-    /* border: 1px solid #d1090940; */
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
     overflow: hidden;
@@ -2126,3 +2139,6 @@ body {
         opacity: 0.7;
     }
 }
+
+
+/* swiper code */
