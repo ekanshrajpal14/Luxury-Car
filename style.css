@@ -6,17 +6,16 @@
 
 html,
 body {
-
     height: 100%;
     width: 100%;
-    perspective: 1px;
-        transform-style: preserve-3d;
-        overflow-x: hidden;
 }
 
 /* body::-webkit-scrollbar {
     display: none;
 } */
+a {
+    text-decoration: none;
+}
 
 @font-face {
     font-family: banana;
@@ -45,28 +44,28 @@ body {
 
 @font-face {
     font-family: cako-regular;
-    src: url(./fonts/cako-regular-italic.ttf);
+    src: url("./fonts/cako-regular-italic.ttf");
 }
 
 @font-face {
     font-family: Eina03-SemiBold;
-    src: url(fonts/Eina03-SemiBold.ttf);
+    src: url("./fonts/Eina03-SemiBold.ttf");
 }
 
 @font-face {
     font-family: Eina03-Bold;
-    src: url(fonts/Eina03-Bold.ttf);
+    src: url("./fonts/Eina03-Bold.ttf");
 }
 
 @font-face {
     font-family: Eina03-Regular;
-    src: url(fonts/Eina03-Regular.ttf);
+    src: url("fonts/Eina03-Regular.ttf");
 }
 
 .main {
     width: 100%;
     height: 100vh;
-    position: relative;
+    /* position: relative; */
     /* font-family:Eina03-SemiBold ; */
     /* font-family: banana; */
     font-family: circular;
@@ -88,7 +87,6 @@ body {
     height: 100vh;
     position: absolute;
     top: 0;
-    /* z-index: 99; */
     background-color: rgba(0, 0, 0, 0.525);
 }
 
@@ -101,7 +99,6 @@ body {
     width: 100%;
     z-index: 999999;
     position: fixed;
-    left: 0;
     top: 0;
     height: 11vh;
     /* background-color: #181818; */
@@ -130,7 +127,6 @@ body {
 
 .logo img {
     width: 12vw;
-    /* height: 100%; */
     object-fit: contain;
     object-position: center;
 }
@@ -157,7 +153,6 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.1vw;
-
     transition: all .5s;
 }
 
@@ -232,7 +227,14 @@ body {
 }
 
 /* end of animation of navbar */
+
+
+
+
+
 /* service part popup */
+
+
 
 #serviceItem {
     flex-direction: column;
@@ -309,7 +311,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* FFC251 */
+    
 }
 
 .header_swiper_next_btn,
@@ -533,112 +535,8 @@ body {
 
 
 
-/* section1 */
 
-.page1 {
-    width: 100%;
-    height: 100vh;
-    background-color: #1B1B1B;
-}
 
-.page1 .part1 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-
-}
-
-.page1 .left {
-    width: 40vw;
-    height: 100%;
-    background-color: #8c3939;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.page1 .table {
-    width: 24vw;
-    height: 63vh;
-    /* background-color: #fff; */
-}
-
-.page1 .table form {
-    width: 100%;
-    height: 100%;
-    background-color: #1B1B1B;
-    display: flex;
-    flex-direction: column;
-    padding: 2vw;
-    gap: 40px;
-    /* align-items: flex-start; */
-    justify-content: center;
-    border-radius: 15px;
-}
-
-.table input {
-    padding: 1vw;
-    background: none;
-    border: none;
-    color: #fff;
-    /* font-size: 1vw; */
-    font-family: eina03-semibold;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #fff;
-}
-
-input::placeholder {
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-input:focus {
-    outline: none;
-}
-
-.btn_form {
-    padding: 1.3vw 1vw;
-    font-size: 1vw;
-    border: none;
-    border-radius: 4vw;
-}
-
-select {
-    font-family: eina03-semibold;
-    padding: .5vw;
-    border: none;
-    background-color: transparent;
-    color: #fff;
-    font-size: 1vw;
-    cursor: pointer;
-}
-
-select:focus {
-    outline: none;
-}
-
-option {
-    background-color: #1B1B1B;
-    outline: none;
-    border: none;
-}
-
-option:focus {
-    outline: none;
-    background-color: #8c3939;
-}
-
-select:hover {
-    background-color: #8c3939;
-}
-
-/* input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-} */
 
 
 
@@ -690,7 +588,6 @@ input::-webkit-inner-spin-button {
 .car_own_box {
     width: 9vw;
     height: 10vw;
-    /* border: 1px solid grey; */
     display: flex;
     background-color: #fff;
     align-items: center;
@@ -743,6 +640,7 @@ input::-webkit-inner-spin-button {
     right: -18%;
     transform: rotate(-45deg);
 }
+
 .LOHITH {
     position: absolute;
     font-size: 20vw;
@@ -758,11 +656,9 @@ input::-webkit-inner-spin-button {
 
 .BRANDS {
     font-size: 5vw;
-    left:50%;
+    left: 50%;
     text-align: center;
-    /* z-index: 999; */
     top: 0%;
-    /* color: #19496c; */
     width: 100%;
 }
 
@@ -889,7 +785,8 @@ input::-webkit-inner-spin-button {
     width: 100%;
     height: auto;
 }
-.car_head1 p{
+
+.car_head1 p {
     font-size: 1.2vw;
 }
 
@@ -1287,9 +1184,9 @@ html,
 body {
     width: 100%;
     height: 100%;
-    perspective: 1px;
+    /* perspective: 1px;
     transform-style: preserve-3d;
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
 
 #works_section {

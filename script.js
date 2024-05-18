@@ -1,6 +1,5 @@
 
 
-
 var car = gsap.to(".car_own_cont", {
     x: "-99.5vw",
     duration: "12",
@@ -66,3 +65,4 @@ var swiper = new Swiper(".slide-content", {
         },
     },
 });
+
