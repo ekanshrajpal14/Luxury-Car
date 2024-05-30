@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FAQ ACCORDION </title>
+    <!-- fontawasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="FnQ.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+
+    <section>
+        <iframe src="navbar.html"
+            onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        <div class="bgcover_logo"></div>
+        <div class="bgcover_logo1"></div>
+        <div class="faqsec">
+            <h1 class="title">Frequently Asked Question's</h1>
+
+            <div class="questions-container">
+                <div class="question">
+                    <button>
+                        <div class="crle">1</div>
+                        <span>What's the best way to study JavaScript?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If
+                        you're
+                        serious about learning fast, efficiently and without missing any important information, then you
+                        should consider enrolling in an online course.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <div class="crle">1</div>
+                        <span>What's the best way to study JavaScript?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If
+                        you're
+                        serious about learning fast, efficiently and without missing any important information, then you
+                        should consider enrolling in an online course.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <div class="crle">1</div>
+                        <span>What's the best way to study JavaScript?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If
+                        you're
+                        serious about learning fast, efficiently and without missing any important information, then you
+                        should consider enrolling in an online course.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <div class="crle">1</div>
+                        <span>What's the best way to study JavaScript?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If
+                        you're
+                        serious about learning fast, efficiently and without missing any important information, then you
+                        should consider enrolling in an online course.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <div class="crle">1</div>
+                        <span>What's the best way to study JavaScript?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If
+                        you're
+                        serious about learning fast, efficiently and without missing any important information, then you
+                        should consider enrolling in an online course.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <iframe src="footer.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+    <!-- external js-->
+    <script>
+        const buttons = document.querySelectorAll('button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const faq = button.nextElementSibling;
+                const icon = button.children[1];
+
+                faq.classList.toggle('show');
+                icon.classList.toggle('rotate');
+            })
+        })
+    </script>
+</body>
+
+</html>

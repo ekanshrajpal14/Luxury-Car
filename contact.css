@@ -44,11 +44,15 @@
 
 .contact_text_div h1 {
     color: #fff;
-    font-size: 42px;
+    font-size: 55px;
+    font-family: "Jersey 25", sans-serif;
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-style: normal;
 }
 
 .contact_text_div p {
-    color: #FF9900;
+    /* color: #FF9900; */
     font-size: 12px;
     line-height: 10px;
     font-family: 'Outfit', sans-serif;
