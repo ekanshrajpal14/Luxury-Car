@@ -248,7 +248,7 @@ body {
 .road_map_image {
     width: 84%;
     height: 75vh;
-    background-image: url(/Original/car_roads.png);
+    background-image: url(Original/car_roads.png);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-color: #9543DE; */
@@ -264,7 +264,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotateY(-180deg);
-    background-image: url(/Original/cars_driving.gif);
+    background-image: url(Original/cars_driving.gif);
 }
 
 .checkpoint1 {
