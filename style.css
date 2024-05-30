@@ -1415,7 +1415,7 @@ body {
     box-shadow: 5px 5px 0px #f5b754;
 }
 
-.textbox {
+/* .textbox {
     z-index: 1;
     position: relative;
     background: none;
@@ -1427,7 +1427,7 @@ body {
     height: 100vh;
     margin: 0;
     display: flex;
-}
+} */
 
 
 
