@@ -1,0 +1,143 @@
+@media screen and (max-width:600px) {
+    .car-intro {
+        background: url('https://images.unsplash.com/photo-1563137391-0030ae24bc35?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+        width: 100%;
+        height: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px
+    }
+
+    .car-introcontent {
+        width: 100%;
+        height: 100%;
+        background-color: #00000078;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introcontent {
+        text-align: center;
+    }
+
+    .introcontent>h1 {
+        font-size: 15vw;
+        /* font-weight: 500; */
+        margin-bottom: 5vw;
+        font-family: "Jersey 25", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+
+        /* font-family: voyage; */
+        span {
+            color: #f5b754;
+        }
+    }
+
+    .introcontent>p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+
+    .filter {
+        width: 99%;
+    }
+
+    .filter>button {
+        width: 18vw;
+        font-size: 3vw;
+    }
+
+    form>div>select {
+        width: 28vw;
+        font-size: 3vw;
+    }
+
+    input {
+        width: 18vw;
+        font-size: 3vw;
+    }
+
+    .all_car_card_container {
+        width: 93%;
+    }
+
+    .carsinfo {
+        width: 43vw;
+        min-height: 30vh;
+    }
+
+    .nav-btn {
+        height: 22px;
+        background-color: #ffffff7d;
+        width: 22px;
+    }
+
+    .swiper-pagination-bullet {
+        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 5px));
+        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 5px));
+    }
+
+    .nav-btn::before,
+    .nav-btn::after {
+        font-size: 10px;
+    }
+
+    .carinfocont {
+        h1 {
+            font-size: 4.4vw;
+            font-weight: 600;
+        }
+
+        .category {
+            font-size: 2vw;
+        }
+
+        button i {
+            color: forestgreen;
+            font-size: 2.1vw;
+            margin-top: 1px;
+        }
+
+        .TnC {
+            top: 34%;
+            font-size: 1.3vw;
+        }
+
+        .price p {
+            color: forestgreen;
+            font-size: 2vw;
+        }
+
+        .price h1 {
+            margin-top: -1vw;
+            font-size: 2.4vw;
+        }
+
+        .time {
+            /* margin-top: -.9vw; */
+            font-size: 1.8vw !important;
+        }
+
+        a {
+            font-size: 2.4vw;
+            padding: 1.7vw 2.5vw;
+            border-radius: 5px;
+        }
+
+    }
+
+    #large {
+        height: 17vh !important;
+    }
+
+    
+}

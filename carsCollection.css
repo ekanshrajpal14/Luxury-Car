@@ -346,12 +346,16 @@ input {
     min-height: 63vh;
     border-radius: 6px;
     display: flex;
-    padding-bottom: .3vw;
+    padding-bottom: .5vw;
+    /* padding: 1vw ; */
     flex-direction: column;
     justify-content: space-between;
     /* align-items: left; */
     /* margin-bottom: 3vw; */
     box-shadow: 0px 0px 10px rgb(199, 199, 199);
+}
+.category{
+    text-transform: capitalize;
 }
 
 /* .carsinfo::before{

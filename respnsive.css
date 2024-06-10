@@ -1,9 +1,20 @@
 @media (max-width:600px) {
 
+    .main {
+        width: 100vw;
+        position: relative;
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: 65vh;
+    }
 
     .navbar {
-        height: 10vh;
-
+        height: 11vh;
+        width: 100%;
     }
 
     .logo {
@@ -26,8 +37,9 @@
         position: absolute;
         left: 0;
         z-index: -1;
-        top: 40%;
+        top: -235%;
         height: 30vh;
+        transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
         padding-left: 4vw;
         padding-top: 5vh;
         flex-direction: column;
@@ -43,26 +55,381 @@
     .items a {
         font-size: 5vw;
     }
-    .whatsapp{
+
+    .whatsapp {
         width: 55vw;
         justify-content: space-between;
     }
-    .whatsapp a i{
+
+    .whatsapp a i {
         font-size: 3.3vw;
     }
-    .whatsapp a{
-        font-size: 3.2vw;
+
+    .whatsapp a {
+        font-size: 2.8vw;
         margin-top: -1vw;
         padding: 3vw;
     }
-    /* .button_toggle{
+
+    .button_toggle {
         padding: 1vw;
-        border: 1px solid #000000;
-    } */
+        display: block;
+    }
 
     .button_toggle i {
         color: #fff;
         font-weight: 800;
         font-size: 7vw;
+    }
+
+    .header_swiper {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .content {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .text h1 {
+        font-size: 7vw;
+    }
+
+    .text p {
+        font-size: 4vw;
+    }
+
+    .text2 {
+        padding-top: 0vw;
+        margin-top: -4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .btn_layer {
+        width: 24vw;
+        height: 4vh;
+    }
+
+    .text2 h4 {
+        font-size: 3vw;
+    }
+
+    .text .btn a {
+        font-size: 3vw;
+    }
+
+    .text .btn i {
+        font-size: 3vw;
+        margin-right: 1vw;
+        margin-top: .2vw;
+    }
+
+    .btn_text2 a {
+        font-size: 3vw;
+        padding: 1.6vw 2.6vw;
+    }
+
+    .header_swiper_next_btn,
+    .header_swiper_prev_btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    .about_page {
+        height: 80vh;
+    }
+
+    .about {
+        height: 100%;
+        /* position: relative; */
+        flex-direction: column;
+    }
+
+    .left_about {
+        width: 90%;
+        position: relative;
+        z-index: 9;
+        height: 87%;
+        padding: 0 7vw;
+        /* text-align: center; */
+        background-color: #fff;
+    }
+
+    .left_about h1 {
+        font-size: 5vw;
+    }
+
+    .left_about #para_about p {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    .left_about .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .left_about #sports p {
+        font-size: 2vw;
+    }
+
+    #read_more {
+        width: 30vw;
+    }
+
+    #read_more a {
+        font-size: 2.3vw;
+        padding: 2vw 4vw;
+    }
+
+    #box2left {
+        width: 70%;
+    }
+
+    #box2leftcont {
+        width: 85%;
+        right: -26%;
+        height: auto;
+    }
+
+    #box2leftcont p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    #box2leftimg2 {
+        width: 42%;
+        height: 52%;
+    }
+
+    #box2leftimg1 {
+        width: 50%;
+        height: 78%;
+    }
+
+    /* setcion gsap */
+    #section2 {
+        height: 30vh;
+    }
+
+    .car_own_cont {
+        width: 270vh;
+    }
+
+    .car_own_box {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .car_own {
+        height: 19vh;
+    }
+
+    .service_top_part h1 {
+        font-size: 7.5vw;
+    }
+
+    .service_bottom_part {
+        padding: 5vw 5vw;
+    }
+
+    .service_top_part p {
+        font-size: 2.5vw;
+    }
+
+    .service_top_part {
+        height: 12vh;
+    }
+
+    .service_box_all {
+        width: 43vw;
+        height: 47vw;
+    }
+
+    .design_box {
+        width: 50px;
+        height: 50px
+    }
+
+    .circle_design {
+        width: 40px;
+        height: 40px;
+    }
+
+    .service_box_all h1 {
+        font-size: 5vw;
+    }
+
+    .cars_top {
+        height: 18vh;
+        padding-top: 2vw;
+    }
+
+    .car_head1 p {
+        font-size: 2.6vw;
+    }
+
+    .car_head3 {
+        width: 85%;
+    }
+
+    .opt1 button {
+        font-size: 2.5vw;
+        padding: 1.3vw 2vw;
+    }
+
+
+    .car_head2 h1 {
+        font-size: 5.5vw;
+    }
+
+    .cars_bottom {
+        gap: 20px;
+    }
+
+    .car_card {
+        width: 40vw;
+        height: auto;
+    }
+
+    .car_bt_head h1 {
+        font-size: 3.5vw;
+    }
+
+    .display_none {
+        display: none;
+    }
+
+    .car_bt_items {
+        width: 10vw;
+    }
+
+    .car_bt_center {
+        height: 5vh;
+    }
+
+    .car_bt_items p {
+        font-size: 2.4vw;
+    }
+
+    .car_bt_buttons {
+        height: 4vh;
+    }
+
+    .car_btn_rent h3 {
+        font-size: 3vw;
+    }
+
+    .book_now {
+        font-size: 2.5vw;
+        padding: 1vw 2vw;
+    }
+
+
+
+
+
+
+
+
+    /* footer */
+
+    #footertop {
+        width: 95%;
+        height: 29%
+    }
+
+    #footertop h1 {
+        width: 50%;
+        text-align: center;
+        font-size: 4.5vw;
+    }
+
+    #footertop>p {
+        width: 80%;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #ftrtopbox>button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #footertopdets {
+        width: 96%;
+    }
+
+    #ftrcontentbox1_logo>h1 {
+        font-size: 5vw;
+    }
+
+    .ftrcontent {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    #ftrcontentbox1 {
+        /* margin-left: 6vw; */
+        width: 88%;
+    }
+
+    #ftrimplinkbox {
+        width: 88%;
+    }
+    #footerbtminr{
+        justify-content: center;
+    }
+
+    #address_box {
+        width: 86%;
+    }
+
+    #ftrcontentbox1>p {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+
+    #ftrcontentbox1>h1 {
+        font-size: 3.6vw;
+    }
+
+    #ftrimplinkbox {
+        height: 57%;
+        border-left: none;
+    }
+
+    #ftrimplinkbox>h1 {
+        font-size: 3.7vw;
+    }
+
+    #linkbox>a {
+        font-size: 2.5vw;
+    }
+
+    #address_box>div>a {
+        width: 35px;
+        height: 35px;
+    }
+
+    #address_box>div>a i {
+        font-size: 3vw;
+    }
+
+    #address_box>h1 {
+        font-size: 3.7vw;
+    }
+
+    #address_box>h4 {
+        font-size: 2.3vw;
+    }
+
+    #address_box>a {
+        font-size: 2.1vw;
     }
 }

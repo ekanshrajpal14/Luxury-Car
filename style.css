@@ -105,6 +105,7 @@ a {
     /* background-color: #0e0e0e; */
     /* background-color: #161417; */
     background-color: #081b29;
+    /* background-color: #202f35; */
 }
 
 .nav {
@@ -180,19 +181,22 @@ a {
     justify-content: center;
     letter-spacing: 0;
     padding: .7vw 1.7vw;
-    background-color: rgb(0, 101, 203);
+    /* 324952 */
+    background-color: #1ba650;
     border-radius: 5px;
+    font-weight: 600;
     font-size: 1vw;
     text-transform: uppercase;
     /* font-family: Eina03-Bold; */
-    box-shadow: 6px 6px 0px 0vw rgb(255, 232, 57);
-    /* color: #FFE839; */
+    box-shadow: 6px 6px 0px 0vw #F5B754;
+    /* color: #000000; */
 }
 
 .whatsapp>a:hover {
-    box-shadow: 0px 0px 0px 0vw rgb(255, 232, 57);
-    background-color: rgb(255, 232, 57);
-    color: rgb(0, 101, 203);
+    box-shadow: 0px 0px 0px 0vw #F5B754;
+    /* background: linear-gradient(#f7f7fe, #FDBE4A); */
+    background-color: #f5b754;
+    color: rgb(0, 0, 0);
 }
 
 /* animation of nav */
@@ -203,7 +207,7 @@ a {
     width: 100%;
     bottom: -7%;
     /* background-color: #99ffe9; */
-    background-color: rgb(255, 232, 57);
+    background-color: #f5b754;
 }
 
 .items:hover::before {
@@ -212,7 +216,8 @@ a {
 
 .items:hover>a {
     /* color: #99ffe9; */
-    color: rgb(255, 232, 57);
+    /* color: #FDC866; */
+    color: #f5b754;
 }
 
 @keyframes a {
@@ -227,7 +232,6 @@ a {
 }
 
 /* end of animation of navbar */
-
 
 
 
@@ -286,12 +290,13 @@ a {
     align-items: center;
     /* padding-top: .5vw; */
     text-decoration: none;
-    transition: all .4s;
+    transition: all .3s;
 }
 
 .item1:hover a {
     /* background-color: #99ffe936; */
-    text-shadow: 0px 0px 7px rgb(255, 232, 57);
+    color: #f5b754;
+    /* text-shadow: 0px 0px 7px rgb(255, 232, 57); */
     /* background-color: rgba(255, 232, 57, 0.223); */
     /* color: #081b29; */
 }
@@ -311,7 +316,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
 .header_swiper_next_btn,
@@ -398,7 +403,8 @@ a {
 }
 
 .text span {
-    color: #FFE839;
+    /* color: #FFE839; */
+    color: #f5b754;
 }
 
 .text p {
@@ -438,7 +444,7 @@ a {
 }
 
 .btn_layer {
-    background-color: #FF9900;
+    background-color: #570096;
     width: 11vw;
     height: 6vh;
     position: relative;
@@ -457,7 +463,7 @@ a {
     top: 0;
     transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
     left: 0;
-    background-color: #081b29;
+    background-color: #f5b754;
 
 }
 
@@ -469,7 +475,7 @@ a {
     transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
     bottom: 0;
     right: 0;
-    background-color: #081b29;
+    background-color: #f5b754;
 
 }
 
@@ -497,8 +503,8 @@ a {
     padding: .5vw 1.5vw;
     background-color: green;
     transition: .3s;
-    border: 2px solid green;
-    border-radius: 1px;
+    /* border: 2px solid green; */
+    border-radius: 5px;
 }
 
 .btn_text2 a:hover {
@@ -834,12 +840,12 @@ a {
     color: rgb(74, 74, 74);
     background-color: transparent;
     cursor: pointer;
-    border: 1px solid #FF9900;
+    border: 1px solid #f5b754;
     font-weight: 600;
 }
 
 .btn_active_click {
-    background-color: #FF9900 !important;
+    background-color: #f5b754 !important;
 }
 
 .cars_bottom {
@@ -975,16 +981,19 @@ a {
 
 .service_top_part {
     width: 100%;
-    height: 24vh;
+    height: 28vh;
     padding-top: 2vw;
     text-align: center;
 }
 
 .service_top_part h1 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     /* font-weight: 700; */
     font-family: Eina03-bold;
-    color: #253993;
+    /* color: #201233; */
+    background: -webkit-linear-gradient(#a112da 60%, #f5b754 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .service_top_part p {
@@ -1057,7 +1066,7 @@ a {
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    border: 1px solid #FF9900;
+    border: 1px solid #F5B754;
     transition: all .4s;
 
 }
@@ -1074,11 +1083,11 @@ a {
 }
 
 .service_box_all:hover .circle_design {
-    background-color: #FF9900;
+    background-color: #F5B754;
 }
 
 .service_box_all:hover .circle_design {
-    background-color: #FF9900;
+    background-color: #F5B754;
 }
 
 .br-right-bottom {
