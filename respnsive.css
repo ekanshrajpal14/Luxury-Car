@@ -338,10 +338,13 @@
 
 
     /* footer */
+    .copyright {
+        height: 0;
+    }
 
     #footertop {
         width: 95%;
-        height: 29%
+        height: 27%
     }
 
     #footertop h1 {
@@ -371,7 +374,7 @@
 
     .ftrcontent {
         flex-direction: column;
-        height: 90%;
+        height: 85%;
     }
 
     #ftrcontentbox1 {
@@ -382,7 +385,8 @@
     #ftrimplinkbox {
         width: 88%;
     }
-    #footerbtminr{
+
+    #footerbtminr {
         justify-content: center;
     }
 
@@ -432,4 +436,275 @@
     #address_box>a {
         font-size: 2.1vw;
     }
+
+    .services {
+        width: 97vw;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    #works_section {
+        width: 100%;
+        height: 110vh;
+        /* background-color: #7a4646; */
+        font-family: gilroy;
+        z-index: 1;
+        position: relative;
+
+    }
+
+    #works_top {
+        width: 100%;
+        height: 15%;
+        /* background-color: #010f4e; */
+        position: relative;
+    }
+
+    #works_top>h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 9vw;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        color: #eaf1f3;
+    }
+
+    #works_top>h4 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-size: 7vw;
+        /* color: #222222; */
+        color: #253993;
+        transform: translate(-50%, -50%);
+
+    }
+
+    #works_btm {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5vw;
+        flex-direction: column;
+        /* background-color: #222222; */
+    }
+
+    .works_btm_boxes {
+        width: 80vw;
+        height: 20%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .works_btm_boxeslast {
+        width: 80vw;
+        height: 20%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .works_btm_boxes>h1 {
+        font-size: 10vw;
+        /* font-weight: 700; */
+        letter-spacing: 0.7vw;
+        text-transform: uppercase;
+        color: #eaf1f3;
+    }
+
+    .works_btm_boxeslast>h1 {
+        font-size: 10vw;
+        /* font-weight: 700; */
+        letter-spacing: 0.7vw;
+        text-transform: uppercase;
+        color: #eaf1f3;
+    }
+
+    #works_btm_boxesinr {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    #works_btm_boxesinr>h2 {
+        text-align: center;
+        color: #253993;
+    }
+
+    #works_btm_boxesinr>p {
+        text-align: center;
+        color: #555555;
+    }
+
+    .works_btm_boxes::after {
+        display: none;
+        position: absolute;
+        right: -8.5vw;
+        width: 200px;
+        height: 1px;
+        content: '';
+        overflow: hidden;
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+        background-image: -webkit-linear-gradient(left, #000000 40%, rgba(255, 255, 255, 0) 0);
+        background-image: -o-linear-gradient(left, #000000 40%, rgba(255, 255, 255, 0) 0);
+        background-image: linear-gradient(to right, #2e31f8ac 40%, rgba(255, 255, 255, 0) 0);
+        -webkit-background-size: 7px 1px;
+        background-size: 7px 1px;
+        background-repeat: repeat-x;
+        top: 170px;
+        -webkit-transform: rotate(50deg);
+        -ms-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+
+    #odd::after {
+        -webkit-transform: rotate(-50deg);
+        -ms-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+    }
+
+    #odd {
+        /* display: flex; */
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+    }
+
+    #oddbx {
+        flex-direction: column;
+    }
+
+    #parallaxsection {
+        background: url('https://images.pexels.com/photos/1157417/pexels-photo-1157417.jpeg') repeat fixed 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        z-index: -1;
+        height: 70vh;
+        width: 100%;
+        overflow: hidden;
+        /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
+    }
+
+    /* #parallaxsection:hover{
+    transform: scale(1.1);
+} */
+
+    #parallaxinner {
+        width: 100%;
+        height: 100%;
+        background-color: #0303049e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: gilroy;
+
+
+    }
+
+    #parallaxinnertext>h3 {
+        font-size: 2.9vw;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: #f5b754;
+        margin-bottom: 2vw;
+        text-transform: uppercase;
+
+    }
+
+    #parallaxinnertext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #parallaxinnertext>h2 {
+        font-size: 7.5vw;
+        text-align: center;
+        font-weight: 500;
+        margin: 1vw 0px;
+        color: whitesmoke;
+        margin-bottom: 5vw;
+    }
+
+    #parallaxinnertext>p {
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 3.5vw;
+        font-size: 3.5vw;
+        width: 90%;
+        text-align: center;
+        color: white;
+    }
+
+    #parallaxinnertext>div {
+        margin-top: 10vw;
+        display: flex;
+
+        gap: 7vw;
+    }
+
+    #parallaxinnertext>div>a {
+        width: fit-content;
+        height: fit-content;
+        padding: 3vw 5.5vw;
+        background-color: #f5b754;
+        color: rgb(0, 11, 81);
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 500;
+        /* position: relative; */
+        /* overflow: hidden; */
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+        letter-spacing: 0.2px;
+    }
+
+    #parallaxinnertext>div>a:nth-child(2):hover {
+        background-color: #010f4e;
+        color: #eaf1f3;
+        box-shadow: 5px 5px 0px #f5b754;
+    }
+
+    #parallaxinnertext>div>a:nth-child(1) {
+        border: 1px solid yellow;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+    }
+
+    #parallaxinnertext>div>a:nth-child(1):hover {
+        border: 1px solid #010f4e;
+        background-color: #010f4e;
+        color: #eaf1f3;
+        box-shadow: 5px 5px 0px #f5b754;
+    }
+
+    .textbox {
+        z-index: 1;
+        position: relative;
+        background: none;
+        color: white;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        line-height: 2em;
+        padding: 3rem;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+    }
+
 }

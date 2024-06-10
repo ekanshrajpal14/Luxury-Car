@@ -1,6 +1,6 @@
 @media (max-width:600px) {
     .part .mainsec {
-        height: 40vh;
+        height: 55vh;
     }
 
     .part #imgbox {
@@ -8,6 +8,7 @@
     }
 
     .part .textbox {
+        width: 73%;
         h2 {
             font-size: 12vw;
         }
@@ -21,7 +22,9 @@
         }
 
         p {
-            font-size: 1.4vw;
+            font-size: 2.4vw;
+            line-height: 15px;
+            width: 78%;
         }
     }
 
@@ -36,6 +39,7 @@
 
     .left_subs .part_three_why_sub button {
         padding: 1.6vw 3vw;
+        font-size: 3vw;
     }
 
     .left_subs {
