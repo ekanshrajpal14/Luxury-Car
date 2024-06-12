@@ -23,7 +23,24 @@ body {
     height: 100vh;
     background-color: black;
 }
-
+.description{
+    width: 100%;
+    padding: 0 8vw ;
+    padding-top: 4vw;
+    h1{
+        font-size: 3vw;
+        font-weight: 700;
+        margin-bottom: 1vw;
+        span{
+            color: #deae36;
+        }
+    }
+    p{
+        font-size: 1.2vw;
+        opacity: .8;
+        line-height: 30px;
+    }
+}
 .page_subscribe {
     width: 100%;
     height: 250vh;
@@ -204,6 +221,7 @@ body {
 
 .subscribe_page_road {
     width: 100%;
+    overflow: hidden;
     height: 80vh;
     background-color: #fff;
 }
