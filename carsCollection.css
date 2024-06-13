@@ -233,11 +233,11 @@ body {
 }
 
 .filter {
-    width: 90%;
+    width: 70%;
     height: 10vh;
     margin-bottom: 2vw;
     display: flex;
-    padding-left: 2vw;
+    /* padding: 0 2vw; */
     /* justify-content: center; */
     align-items: center;
     /* background-color: red; */
@@ -250,24 +250,27 @@ body {
     background: none;
     border: none;
     color: #535353;
-    width: 7vw;
+    padding: .8vw 2vw;
     font-size: 1vw;
-    height: 40px;
+    display: flex;
+    
     border: 1px solid#9c9c9c;
 }
 
-form {
+.form {
     display: flex;
     width: 90%;
     justify-content: space-between;
     /* background-color: #f3b34c; */
 }
 
-form>div {
+.form>div {
     display: flex;
 }
 
-form>div>select {
+.form>div>select {
+    padding: .8vw 2vw;
+        font-size: 1vw;
     appearance: none;
     -webkit-appearance: none;
     background-image: url("data: image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' %3E%3Cpath d='M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z' %3E%3C/path%3E%3C/svg%3E");
@@ -280,28 +283,45 @@ form>div>select {
     align-items: center;
     /* border-radius: 10px; */
     /* color: #535353; */
-    width: 15vw;
+    width: 18vw;
     font-size: 1vw;
-    height: 40px;
+    /* height: 40px; */
     padding-left: 10px;
 
     /* padding-right: 2vw; */
     border: 1px solid#ddd;
 }
 
-form>div>select:hover {
+.form>div>select:hover {
     box-shadow: 5px 5px 15px gainsboro;
 }
 
-form>div>select>option {
+.form>div>select>option {
     width: 9vw;
     font-size: 1vw;
     /* margin-top: 5px; */
-    color: #ddd;
+    color: #000000;
     background-color: #ffffff;
 
 
     /* //Anutag\\ */
+}
+.submit{
+    background: none;
+        border: none;
+        color: #f5b754;
+        cursor: pointer;
+        font-weight: bold;
+        /* width: 7vw; */
+        font-size: 1vw;
+        /* height: 40px; */
+        padding: .8vw 2vw;
+            font-size: 1vw;
+        border: 2px solid  #f5b754;
+}
+.or{
+    margin-left: 2vw;
+    color: #010f4ec7;
 }
 
 input {
@@ -505,7 +525,7 @@ input {
 
 .carinforight {
     width: 100%;
-    height: 60%;
+    height:38vh  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -612,7 +632,7 @@ input {
         .TnC {
             position: absolute;
             right: 5%;
-            top: 23%;
+            top: 25%;
             color: #010f4e;
             font-size: .9vw;
         }
