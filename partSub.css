@@ -106,7 +106,7 @@ body {
 .left_subs .part_three_why_sub button {
     padding: .6vw 1vw;
     border: none;
-    background-color: #ff9900c8;
+    background-color: #f5b754;
     color: #05158e;
     font-weight: 600;
     box-shadow: 7px 7px 1px 0px;
@@ -163,7 +163,9 @@ body {
     left: -10%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(https://www.invygo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstars.1ef6cc24.png&w=1920&q=75);
+    background-image: url(./UpdatedImages/starfinal.png);
+    
+    /* background-image: url(https://www.invygo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstars.1ef6cc24.png&w=1920&q=75); */
 }
 
 .subs_data_box {
@@ -252,7 +254,7 @@ body {
 }
 
 .road_map_heading h1 span {
-    color: #FF9900;
+    color: #f5b754;
     font-weight: 800;
 }
 
@@ -315,7 +317,7 @@ body {
     padding-bottom: 3vw;
     background-color: #e4e4e4;
     display: flex;
-    background: linear-gradient(#fff, #e1e6ff, #fff);
+    background: linear-gradient(#fff, #e1eeffbd, #fff);
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
@@ -327,7 +329,7 @@ body {
 }
 
 .car_type_subscribe h1 span {
-    color: #FF9900;
+    color: #f5b754;
 }
 
 .car_card_clickme {
@@ -362,20 +364,20 @@ body {
 }
 
 .car_image_holder3 {
-    background-image: url(https://images.unsplash.com/photo-1674110997072-41f11b7d4ae7?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(./UpdatedImages/car_type1.avif);
 
 }
 
 .car_image_holder2 {
-    background-image: url(https://images.unsplash.com/photo-1709085582795-4aca78fd76a2?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(./UpdatedImages/car_type2.avif);
 }
 
 .car_image_holder1 {
-    background-image: url(https://images.unsplash.com/photo-1697178089114-3d383c5d8f5d?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(./UpdatedImages/car_type3.avif);
 }
 
 .car_image_holder4 {
-    background-image: url(https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(./UpdatedImages/car_type4.avif);
 }
 
 .car_image_holder:hover {

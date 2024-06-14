@@ -167,18 +167,14 @@ html,body{
 
 /* //nabar  */
 .car-intro{
-  background: url('https://images.unsplash.com/photo-1563137391-0030ae24bc35?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%;
-  /* background: url('https://images.pexels.com/photos/1157417/pexels-photo-1157417.jpeg') repeat fixed 100%; */
+  background: url(./UpdatedImages/service_parallax1.avif) repeat fixed 100%;
   background-position: center;
  background-size:cover;
  z-index: -1;
   width: 100%;
   height: 60vh;
-  /* background-color: #c0c8ea; */
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 7vw; */
-  /* margin-top: 3vw; */
   border-radius: 10px
 }
 .car-introcontent{
@@ -475,7 +471,7 @@ html,body{
     width: 100%;
     height: 80vh;
     padding-top: 7vw;
-    background-image: url('https://show.moxcreative.com/autorent/wp-content/uploads/sites/58/2022/02/dashed.png');
+    background-image: url(./UpdatedImages/dashed_service.png);
     background-position: center;
     /* background-size: cover; */
     background-repeat: no-repeat;
@@ -657,7 +653,7 @@ h2{
   }
 }
 .parallax1{
-  background: url('https://images.unsplash.com/photo-1563137391-0030ae24bc35?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%;
+  background: url(./UpdatedImages/service_parallax1.avif) repeat fixed 100%;
    background-position: center;
  background-size:cover;
  z-index: -1;
@@ -676,7 +672,6 @@ h2{
   .parallax1inrtop{
     width: 100%;
     height: 60%;
-    /* background-color: #e99714; */
     display: flex;
     padding: 7vw 7vw;
     justify-content: space-between;
@@ -685,7 +680,6 @@ h2{
       width: 45%;
      font-size: 1.1vw;
      line-height: 1.8vw;
-      /* background-color: #e08a01; */
     }
     h1{
       font-weight: 500;

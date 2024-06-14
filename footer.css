@@ -19,7 +19,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1.5vw;
-    font-family: gilroy;
+    /* font-family: gilroy; */
     color: white;
     background-color: #253993;
     overflow: hidden;
@@ -33,12 +33,9 @@
 #footertopdets {
     width: 80%;
     height: 30%;
-
-    /* background-color: #a62323; */
     margin-top: 20px;
     border-radius: 10px;
     display: flex;
-    /* border: 1px light #f5b754; */
     border-width: 1px;
     border-color: rgba(241, 255, 178, 0.304);
     border-style: solid;
@@ -57,8 +54,6 @@
     height: 75%;
     display: flex;
     gap: 1.5vw;
-    /* background-color: #eaf1f3; */
-    /* justify-content: center; */
     align-items: center;
     overflow: hidden;
     border-right: 1px solid #ccc;
@@ -103,10 +98,7 @@
 }
 
 #footerbtm {
-
-
-    /* background: url('https://images.unsplash.com/photo-1498887960847-2a5e46312788?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%; */
-    background: url('https://images.unsplash.com/photo-1603831126198-a53fd2a50da5?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%;
+   background: url(./UpdatedImages/footer_img.avif) repeat fixed 100%;
     background-size: cover;
     background-position: center;
 

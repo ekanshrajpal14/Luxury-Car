@@ -170,7 +170,7 @@ body {
 
 /* //nabar  */
 .car-intro {
-    background: url('https://images.unsplash.com/photo-1563137391-0030ae24bc35?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%;
+    background: url(./UpdatedImages/service_parallax1.avif) repeat fixed 100%;
     /* background: url('https://images.pexels.com/photos/1157417/pexels-photo-1157417.jpeg') repeat fixed 100%; */
     background-position: center;
     background-size: cover;
