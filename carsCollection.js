@@ -172,6 +172,10 @@ otp.forEach((item) => {
 
 document.querySelector(".submit").addEventListener("click", function (re) {
     var category = document.querySelector("#category");
+    if(category.value == "all" ){
+        displayArr(arr)
+        return;
+    }
     var newData = arr.filter(function (e) {
         return e.category == category.value;
     });

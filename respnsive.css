@@ -93,7 +93,7 @@
     }
 
     .text h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .text p {
@@ -231,7 +231,11 @@
     }
 
     .service_top_part h1 {
-        font-size: 7.5vw;
+        font-size: 7vw;
+    }
+
+    .service_top_part h5 {
+        font-size: 2.5vw;
     }
 
     .service_bottom_part {
@@ -240,6 +244,10 @@
 
     .service_top_part p {
         font-size: 2.5vw;
+    }
+
+    .car_head1 h5 {
+        font-size: 3.4vw;
     }
 
     .service_top_part {
@@ -266,8 +274,14 @@
     }
 
     .cars_top {
-        height: 18vh;
+        min-height: 30vh;
         padding-top: 2vw;
+        /* justify-content: center; */
+        /* gap: 7vw; */
+    }
+
+    .car_head2 p {
+        font-size: 2.3vw;
     }
 
     .car_head1 p {
@@ -276,6 +290,7 @@
 
     .car_head3 {
         width: 85%;
+        height: 7vh;
     }
 
     .opt1 button {
@@ -473,6 +488,11 @@
         text-transform: uppercase;
         transform: translate(-50%, -50%);
         color: #eaf1f3;
+    }
+
+    #works_top>p {
+        margin-top: 24vw;
+        font-size: 2.5vw;
     }
 
     #works_top>h4 {
